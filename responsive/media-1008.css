@@ -1,0 +1,74 @@
+@media all and (max-width: 1008px) {
+
+
+
+
+
+
+
+
+    /* 2-section */
+    .locations-header {
+        font-size: 3.6rem;
+    }
+
+    .locations-subheader {
+        font-size: 1.8rem;
+    }
+
+
+    /* 3-section */
+
+    .benefits-header {
+        font-size: 3.6rem;
+    }
+
+
+    .benefits-subheader {
+        font-size: 2.2rem;
+    }
+
+
+    .benefits-card:nth-child(3) {
+        margin: 4rem 24rem;
+    }
+
+
+
+
+
+    /* 4-section */
+    .contact-window {
+        width: 63%;
+        margin: 10rem 0 12rem 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer-header {
+        font-size: 2.2rem;
+        color: white;
+    }
+
+
+
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+    }
+}

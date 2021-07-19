@@ -1,0 +1,74 @@
+@media all and (max-width: 1366px) {
+
+
+
+
+
+    /* 1-section */
+    .site-info__header {
+        font-size: 4rem;
+    }
+
+    .site-info__subheader {
+        font-size: 2.4rem;
+    }
+
+
+    .site-info__btn {
+        color: white;
+        background-color: #4c6e97;
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+    }
+
+
+
+
+
+
+
+
+    /* 2-section */
+    .locations-header {
+        font-size: 4.4rem;
+    }
+
+    .locations-subheader {
+        font-size: 2.4rem;
+    }
+
+
+    .locations-cloud {
+        width: 719px;
+        height: 387px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* 3-section */
+
+    .benefits-header {
+        font-size: 4rem;
+    }
+
+
+    .benefits-subheader {
+        font-size: 2.4rem;
+    }
+
+
+
+
+    /* 4-sections */
+    .contact-window {
+        margin: 40em;
+    }
+}

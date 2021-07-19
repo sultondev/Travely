@@ -1,0 +1,147 @@
+@media all and (max-width: 360px) {
+
+    /* Navbar and Header list */
+
+    .navbar-menu {
+        width: 20rem;
+    }
+
+
+    .navbar-company {
+        font-size: 1.6rem;
+    }
+
+    .navbar-menu__link {
+        font-size: 1.2rem;
+
+    }
+
+
+
+
+    /* 1-section */
+    .site-info__header {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .site-info__subheader {
+        font-size: 1.2rem;
+    }
+
+
+    .site-info__btn {
+        color: white;
+        background-color: #4c6e97;
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 2-section */
+
+    .locations {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../img/new-york-page.png") center right/cover no-repeat;
+    }
+
+
+    .locations-header {
+        font-size: 1.8rem;
+    }
+
+    .locations-subheader {
+        font-size: 1.4rem;
+    }
+
+
+
+
+
+    /* 3-section */
+    .benefits-header {
+        font-size: 2.2rem;
+    }
+
+    .benefits-subheader {
+        font-size: 1.2rem;
+    }
+
+
+    .benefits-card {
+        margin: 4rem 0rem !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 4-section */
+
+
+
+
+    .contact-window {
+        width: 100%;
+    }
+
+
+    .contact-inputs__name,
+    .contact-inputs__email {
+        color: white;
+        padding: 2rem 0 0 0;
+    }
+
+
+
+
+
+    input[name="name"],
+    input[name="email"] {
+        font-size: 1.2rem;
+    }
+
+
+
+    .contact-inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 10rem 0 12rem 0;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+}

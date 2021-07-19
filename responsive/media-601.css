@@ -1,0 +1,81 @@
+@media all and (max-width: 601px) {
+
+
+
+    /* Header and Navbar  */
+
+    .header {
+        height: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* 2-section */
+    .locations-subheader {
+        font-size: 1.6rem;
+        font-family: "Poppins";
+        text-align: left;
+        background: none;
+        background: rgba(19, 28, 39, 0.9);
+        -webkit-text-fill-color: white;
+        padding: 2.5rem 1rem;
+        color: white;
+    }
+
+
+
+
+
+    /* 3-section */
+
+    .benefits-card {
+        margin: 4rem 8rem !important;
+    }
+
+
+
+
+
+
+
+
+    /* 4-section */
+    .contact-container {
+        padding: 0 0 4rem 0;
+    }
+
+    .contact-window {
+        margin: 10rem 0 0rem 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer */
+    .footer {
+        min-height: 150px;
+    }
+
+    .footer-container {
+        height: auto;
+    }
+}

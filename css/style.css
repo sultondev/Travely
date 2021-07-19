@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+/*  */
+
+.header {
+    background-color: #131c27;
+    width: 100%;
+    height: 80px;
+    min-height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 6rem;
+}
+
+.navbar-company {
+    color: white;
+    font-size: 2.6rem;
+    font-family: "Pattaya";
+}
+
+
+.navbar-list__item {
+    opacity: 1;
+}
+
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+
+}
+
+.navbar-menu__link {
+    color: white;
+    font-size: 2rem;
+    font-family: "Poppins";
+    position: relative;
+    transition: 0.8s all;
+}
+
+
+.navbar-menu__link::after {
+    content: "";
+    width: 0;
+    height: 0;
+
+}
+
+
+.navbar-menu__link:hover::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: rgb(76, 110, 206);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s all;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1-section */
+
+
+.site-info {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+        url("../img/landing-page.jpg") center center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90vh;
+    height: auto;
+}
+
+
+
+.site-info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.site-info__header {
+    font-size: 4rem;
+    font-family: "Poppins";
+    color: white;
+}
+
+.site-info__subheader {
+    font-size: 2.8rem;
+    font-family: "Poppins";
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.site-info__btn {
+    color: white;
+    background-color: #4c6e97;
+    padding: 1.5rem 3rem;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2-section */
+
+
+.locations {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+        url("/img/new-york-page.png") center center/cover no-repeat;
+    height: auto;
+
+
+}
+
+
+.locations-container {
+    padding: 30rem 16rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.locations-header {
+    font-size: 4.8rem;
+    font-family: "Poppins";
+    text-align: left;
+}
+
+
+.locations-subheader {
+    font-size: 3rem;
+    font-family: "Poppins";
+    text-align: left;
+    background-color: #f3ec78;
+    background-image: linear-gradient(#131c27, #663b34);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2.5rem 0;
+
+}
+
+
+
+
+.locations-cloud {
+    position: absolute;
+    top: -6rem;
+    right: -10rem;
+    animation: cloudMoveOne 4s infinite alternate ease-in-out;
+    width: 1124px;
+    height: 606px;
+}
+
+
+.locations-cloud__first {
+    z-index: -1;
+    top: 2rem;
+    right: -8rem;
+    animation: cloudMoveTwo 4s infinite alternate ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3-section */
+
+.benefits {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    height: auto;
+
+}
+
+
+.benefits-articles {
+    background: rgb(41, 41, 41);
+    padding: 6rem 0 6rem 0;
+    height: 30vh;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.benefits-header {
+    font-size: 4.8rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+.benefits-subheader {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.benefits-cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.benefits-card {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 4rem;
+    box-shadow: 1px 1px 15px -4px;
+}
+
+
+.benefits-card__icon {
+    background-color: rgb(41, 41, 41);
+
+}
+
+
+
+.benefits-card__header {
+    font-size: 2.8rem;
+    padding: 2rem 0;
+}
+
+
+.benefits-card__subheader {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+/* 4-section */
+
+
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../img/contact-mountain.png") center center/cover no-repeat;
+}
+
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    height: auto;
+}
+
+
+
+.contact-window {
+    width: 60%;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0 12rem 0;
+}
+
+.contact-window__header {
+    font-size: 5rem;
+    color: white;
+    padding: 3rem 0 0 0;
+}
+
+
+
+
+
+
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 10vh;
+    margin: 10rem 0 12rem 0;
+    height: auto;
+}
+
+
+.contact-inputs__name,
+.contact-inputs__email {
+    font-size: 2rem;
+    color: white;
+}
+
+input[name="name"],
+input[name="email"] {
+    font-size: 2rem;
+}
+
+.contact-window__btn {
+    width: 100%;
+    min-height: 6.6vh;
+    background-color: rgb(76, 110, 206);
+    outline: 0;
+    border: 0;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    font-size: 2.4rem;
+    cursor: pointer;
+    transition: 1s all;
+    height: auto;
+}
+
+
+.contact-window__btn:hover {
+    background-color: #27394e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+
+
+.footer {
+    min-height: 150px;
+    width: 100%;
+    background-color: #131c27;
+    height: auto;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-header {
+    font-size: 3rem;
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Author */
+.author-header {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+
+}
+
+
+.author-link {
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+
+
+@keyframes cloudMoveOne {
+    from {
+        top: -6rem;
+        right: -8rem;
+        transition: 3s all ease-in-out;
+    }
+
+    to {
+        right: 0rem;
+        top: 0rem;
+        transition: 3s all ease-in-out;
+    }
+
+}
+
+
+@keyframes cloudMoveTwo {
+    from {
+        right: 1rem;
+        top: 1rem;
+        transition: 3s all ease-in-out;
+    }
+
+    to {
+
+        top: -6rem;
+        right: -10rem;
+        transition: 3s all ease-in-out;
+    }
+
+}

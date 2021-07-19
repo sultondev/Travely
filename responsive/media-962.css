@@ -1,0 +1,192 @@
+@media all and (max-width: 962px) {
+
+
+
+
+    /* header and navbar */
+
+
+    .navbar-menu {
+        width: 46rem;
+    }
+
+
+    .navbar-company {
+        font-size: 2.4rem;
+    }
+
+    .navbar-menu__link {
+        font-size: 1.8rem;
+
+    }
+
+
+
+
+
+
+
+
+
+    /* 1-section */
+    .site-info__header {
+        font-size: 3.2rem;
+    }
+
+    .site-info__subheader {
+        font-size: 2rem;
+    }
+
+
+    .site-info__btn {
+        color: white;
+        background-color: #4c6e97;
+        padding: 1.5rem 3rem;
+        font-size: 1.6rem;
+    }
+
+
+
+
+
+
+
+    /* 2-section */
+
+
+    .locations-header {
+        font-size: 3.4rem;
+    }
+
+
+    .locations-subheader {
+        font-size: 1.8rem;
+    }
+
+    .locations-cloud {
+        position: absolute;
+        top: -6rem;
+        right: -8rem;
+        animation: cloudMoveOne 4s infinite alternate ease-in-out;
+        width: 674px;
+        height: 363px;
+    }
+
+    .locations-cloud__first {
+        z-index: -1;
+        top: 0rem;
+        right: 0rem;
+        animation: cloudMoveTwo 4s infinite alternate ease-in-out;
+    }
+
+
+    /* 3-section */
+    .benefits-header {
+        font-size: 3.4rem;
+    }
+
+
+    .benefits-subheader {
+        font-size: 2rem;
+    }
+
+
+
+
+
+
+
+    /* 4-section */
+
+    .contact-window {
+        width: 68%;
+        margin: 10rem 0 12rem 0;
+    }
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer-header {
+        font-size: 2.4rem;
+        color: white;
+    }
+
+
+
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 38%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation cloud */

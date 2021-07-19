@@ -1,0 +1,100 @@
+@media all and (max-width: 640px) {
+
+
+
+    /* Navbar list */
+    .navbar-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .navbar-company {
+        font-size: 2.2rem;
+    }
+
+    .navbar-menu__link {
+        font-size: 1.6rem;
+
+    }
+
+
+
+
+
+
+    /* 2-section */
+    .locations-header {
+        font-size: 3rem;
+    }
+
+    .locations-subheader {
+        font-size: 1.4rem;
+    }
+
+
+
+    /* 3-section */
+
+    .benefits-card {
+        margin: 4rem 10rem !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* 4-section */
+
+
+    .contact-window {
+        width: 74%;
+        margin: 10rem 0 12rem 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 130px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+    .footer-header {
+        font-size: 2.2rem;
+        margin: 1rem 0;
+        color: white;
+    }
+
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

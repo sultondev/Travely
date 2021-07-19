@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Pattaya";
+    src: url("/font/Pattaya/Pattaya-Regular.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/font/Poppins/Poppins-Regular.ttf") format("ttf")
+}

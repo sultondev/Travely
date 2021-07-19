@@ -1,0 +1,70 @@
+@media all and (max-width: 1280px) {
+
+
+    /* 2-section */
+    .locations-header {
+        font-size: 4.2rem;
+    }
+
+    .locations-subheader {
+        font-size: 2.2rem;
+    }
+
+
+
+
+    .locations-cloud {
+        width: 719px;
+        height: 387px;
+        top: -7rem;
+        right: -11rem;
+    }
+
+    .locations-cloud__first {
+        z-index: -1;
+        top: 3rem;
+        right: -9rem;
+        animation: cloudMoveTwo 4s infinite alternate ease-in-out;
+    }
+
+
+    @keyframes cloudMoveTwo {
+        from {
+            right: 0rem;
+            top: 0rem;
+            transition: 3s all ease-in-out;
+        }
+
+        to {
+
+            top: -8rem;
+            right: -12rem;
+            transition: 3s all ease-in-out;
+        }
+
+
+    }
+
+
+
+
+    /* Footer */
+
+    .footer-header {
+        font-size: 2.4rem;
+        color: white;
+    }
+
+
+
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+    }
+
+
+
+
+}

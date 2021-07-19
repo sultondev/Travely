@@ -1,0 +1,92 @@
+@media all and (max-width: 800px) {
+
+
+
+
+
+
+
+
+
+    /* Navbar */
+    .navbar-menu {
+        width: 36rem;
+    }
+
+
+    .navbar-company {
+        font-size: 2.4rem;
+    }
+
+    .navbar-menu__link {
+        font-size: 1.8rem;
+
+    }
+
+
+
+    /* 2-section */
+    .locations-header {
+        font-size: 3.2rem;
+    }
+
+
+    .locations-subheader {
+        font-size: 1.6rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 3-section */
+    .benefits-card:nth-child(3) {
+        margin: 4rem 20rem;
+    }
+
+
+    /* 4-section */
+
+
+    .contact-window__header {
+        font-size: 3.8rem;
+        color: white;
+        padding: 3rem 0 0 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+    .footer-header {
+        font-size: 2.2rem;
+        color: white;
+    }
+
+
+
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 36%;
+    }
+}

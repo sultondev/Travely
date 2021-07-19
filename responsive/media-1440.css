@@ -1,0 +1,40 @@
+@media all and (max-width: 1440px) {
+
+
+
+    /* 2-section */
+    .locations-cloud {
+        width: 876px;
+        height: 472px;
+    }
+
+
+
+
+    /* 3-section */
+
+    .benefits-header {
+        font-size: 4.2rem;
+    }
+
+    .benefits-subheader {
+        font-size: 2.6rem;
+    }
+
+
+    .benefits-card__header {
+        font-size: 2.4rem;
+    }
+
+    .benefits-card__subheader {
+        font-size: 1.6rem;
+    }
+
+
+
+
+    /* 4-section */
+    .contact-window__header {
+        font-size: 4.4rem;
+    }
+}

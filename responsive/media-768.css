@@ -1,0 +1,34 @@
+@media all and (max-width: 768px) {
+
+
+
+
+    /* 1-section */
+    .site-info__header {
+        font-size: 3rem;
+    }
+
+    .site-info__subheader {
+        font-size: 1.8rem;
+    }
+
+
+    .site-info__btn {
+        color: white;
+        background-color: #4c6e97;
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+    }
+
+
+    /* 3-section */
+    .benefits-header {
+        font-size: 3.2rem;
+    }
+
+
+    .benefits-subheader {
+        font-size: 1.8rem;
+    }
+
+}
